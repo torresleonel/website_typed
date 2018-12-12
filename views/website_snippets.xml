@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- Website Snippets Menu -->
+  <template id="website_snippet_menu" name="Website Snippet Menu" inherit_id="website.snippets">
+    <!-- Include Typed JS Snippet -->
+    <xpath expr="//div[@id='snippet_effect']//t[@t-snippet][last()]" position="after">
+      <t t-call="website_typed.typedjs_snippet"/>
+    </xpath>
+
+    <!-- Include Typed JS Snippet Options-->
+    <xpath expr="//div[@id='snippet_options']" position="inside">
+      <t t-call="website_typed.typedjs_snippet_options"/>
+    </xpath>
+  </template>
+
+  <!-- Typed JS Snippet -->
+  <template id="typedjs_snippet" name="Typed JS">
+    <div>
+      <div class="oe_snippet_thumbnail">
+        <div style="background: white;box-shadow:none;-webkit-box-shadow:none;" class="oe_snippet_thumbnail_img" >
+          <i class="fa fa-terminal fa-5x text-muted"></i>
+        </div>
+        <span class="oe_snippet_thumbnail_title">Typed JS</span>
+      </div>
+      <span
+        class="oe_snippet_body typedjs"
+        data-name="Typed JS"
+        data-type-speed="40"
+        data-back-speed="20"
+        data-smart-backspace="false"
+        data-fade-out="true"
+        data-back-delay="700"
+        data-loop="true"
+        data-show-cursor="true"
+        data-cursor-char="|">
+        <b>Replace this text</b>, with the desired one, and remember, to separate words or phrases, with commas, to, generate, the, effect.
+      </span>
+    </div>
+  </template>
+
+  <!-- Typed JS Snippet Options -->
+  <template id="typedjs_snippet_options" name="Typed JS Options">
+    <t t-call="website.snippet_options"/>
+    <div data-js="typedjs_editor" data-selector=".typedjs">
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Type Speed</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-type-speed="40"><a href="#">0.04s</a></li>
+          <li data-type-speed="80"><a href="#">0.08s</a></li>
+          <li data-type-speed="150"><a href="#">0.15s</a></li>
+          <li data-type-speed="200"><a href="#">0.2s</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Fade Out</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-fade-out="true"><a href="#">Active</a></li>
+          <li data-fade-out="false"><a href="#">Inactive</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Back Speed</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-back-speed="20"><a href="#">0.02s</a></li>
+          <li data-back-speed="60"><a href="#">0.06s</a></li>
+          <li data-back-speed="100"><a href="#">0.1s</a></li>
+          <li data-back-speed="200"><a href="#">0.2s</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Smart Backspace</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-smart-backspace="true"><a href="#">Active</a></li>
+          <li data-smart-backspace="false"><a href="#">Inactive</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Back Delay</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-back-delay="100"><a href="#">0.1s</a></li>
+          <li data-back-delay="400"><a href="#">0.4s</a></li>
+          <li data-back-delay="700"><a href="#">0.7s</a></li>
+          <li data-back-delay="1000"><a href="#">1s</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Loop</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-loop="true"><a href="#">Active</a></li>
+          <li data-loop="false"><a href="#">Inactive</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Show Cursor</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-show-cursor="true"><a href="#">Active</a></li>
+          <li data-show-cursor="false"><a href="#">Inactive</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a tabindex="-2" href="#"><i class="fa fa-terminal"/>Cursor Char</a>
+        <ul class="dropdown-menu" data-no-preview="true">
+          <li data-cursor-char="|"><a href="#">|</a></li>
+          <li data-cursor-char="_"><a href="#">_</a></li>
+          <li data-cursor-char=">"><a href="#">&gt;</a></li>
+        </ul>
+      </li>
+    </div>
+
+    <div
+      data-selector=".typedjs"
+      data-drop-in="p">
+    </div>
+  </template>
+</odoo>
