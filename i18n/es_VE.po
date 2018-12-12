@@ -1,0 +1,135 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_typed
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-12 21:19+0000\n"
+"PO-Revision-Date: 2018-12-12 17:25-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Language: es_VE\n"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.02s"
+msgstr "0,02s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.04s"
+msgstr "0,04s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.06s"
+msgstr "0,06s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.08s"
+msgstr "0,08s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.15s"
+msgstr "0,15s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.1s"
+msgstr "0,1s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.2s"
+msgstr "0,2s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.4s"
+msgstr "0,4s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "0.7s"
+msgstr "0,7s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "1s"
+msgstr "1s"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Back Delay"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Back Speed"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Cursor Char"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Fade Out"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Loop"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Show Cursor"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Smart Backspace"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "<i class=\"fa fa-terminal\"/>Type Speed"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet
+msgid ""
+"<span class=\"oe_snippet_body typedjs\" data-name=\"Typed JS\" data-type-"
+"speed=\"40\" data-back-speed=\"20\" data-smart-backspace=\"false\" data-fade-"
+"out=\"true\" data-back-delay=\"700\" data-loop=\"true\" data-show-cursor="
+"\"true\" data-cursor-char=\"|\">\n"
+"        <b>Replace this text</b>, with the desired one, and remember, to "
+"separate words or phrases, with commas, to, generate, the, effect.\n"
+"      </span>"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet
+msgid "<span class=\"oe_snippet_thumbnail_title\">Typed JS</span>"
+msgstr ""
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "Active"
+msgstr "Activo"
+
+#. module: website_typed
+#: model:ir.ui.view,arch_db:website_typed.typedjs_snippet_options
+msgid "Inactive"
+msgstr "Inactivo"
